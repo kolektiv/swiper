@@ -1824,7 +1824,7 @@ RG-PROMPT, if non-nil, is passed as `ivy-read' prompt argument. "
 
 ;;** `counsel-grep'
 (defcustom counsel-grep-base-command "grep -nE \"%s\" %s"
-  "Format string to use in `cousel-grep-function' to construct
+  "Format string to use in `counsel-grep-function' to construct
 the command."
   :type 'string
   :group 'ivy)
